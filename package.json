@@ -30,49 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postbuild": "react-snap"
+    "eject": "react-scripts eject"
   },
-  "reactSnap": {
-    "source": "build",
-    "include": [
-      "/",
-      "/try-for-free/",
-      "/request-demo/",
-      "/career/",
-      "/about/",
-      "/contact/",
-      "/whatsapp-api/",
-      "/rcs-sms/",
-      "/bulk-sms/",
-      "/voice-call/",
-      "/privacy/",
-      "/terms/",
-      "/services/",
-      "/faq/",
-      "/blogs/",
-      "/blogs/how-whatsApp-chatbots-can-revolutionize-customer-support-for-indian-sMEs/",
-      "/blogs/what-is-whatsApp-business-aPI?-a-complete-guide-for-indian-businesses/",
-      "/blogs/how-to-use-whatsApp-business-aPI-to-automate-customer-communication/",
-      "/blogs/whatsApp-business-aPI-pricing-in-india-everything-you-need-to-know/",
-      "/blogs/top-10-benefits-of-whatsApp-chatbots-for-small-businesses-in-bangalore/",
-      "/blogs/step-by-step-guide-to-integrating-whatsApp-business-aPI-with-your-cRM/",
-      "/blogs/whatsApp-business-aPI-vs-free-whatsApp-business-app-which-one-is-right-for-you/",
-      "/blogs/10-game-changing-marketing-strategies-with-whatsApp-business-aPI/",
-      "/blogs/how-bangalore's-small-businesses-are-unlocking-growth-with-whatsApp-business-aPI/",
-      "/blogs/whatsApp-business-aPI-integration-essential-tools-and-platforms-for-small-business-growth/",
-      "/blogs/why-whatsApp-business-aPI-is-revolutionizing-e-commerce-in-india/",
-      "/blogs/whatsApp-business-aPI-use-cases-transforming-healthcare-in-india/",
-      "/blogs/top-5-chatbot-platforms-for-whatsApp-business-aPI-developers/",
-      "/blogs/how-whatsApp-chatbots-drive-lead-generation-for-indian-startups/",
-      "/blogs/building-scalable-customer-support-with-whatsApp-aPI-and-chatbots-in-bangalore/",
-      "/blogs/why-travel-businesses-in-2024-need-whatsApp-aPI-for-growth/",
-      "/blogs/secure-your-business-with-a2z-sms-otp-services/",
-      "/blogs/boost-business-reach-with-reliable-bulk-sMS-services/",
-      "/privacypolicies/",
-      "/termsandcondition/"
-    ]
-  },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
