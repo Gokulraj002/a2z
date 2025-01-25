@@ -4,7 +4,6 @@ import { HelmetProvider } from "react-helmet-async";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS CSS file
 import './Component/Solutions/solution.css'
-// Import your components
 import Layout from "./Component/Header/Layout";
 import Home from "./Component/Home/Home";
 import TryForFree from "./Component/Forms/TryForFree";
@@ -53,7 +52,6 @@ import Blog6 from "./Component/Resources/Blogs/January/Blog6";
 
 function App() {
   useEffect(() => {
-    // Initialize AOS with specific settings
     AOS.init({
       duration: 1500,  // Animation duration in milliseconds
       once: true,      // Allow animations to happen only once

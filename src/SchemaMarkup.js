@@ -27,8 +27,6 @@ const SchemaMarkup = () => {
       <script type="application/ld+json">
         {JSON.stringify(Website_Schema, null, 2)}
       </script>
-
-      
     </Helmet>
   );
 };

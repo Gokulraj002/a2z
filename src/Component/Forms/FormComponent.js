@@ -1,6 +1,5 @@
 import React from "react";
 import { Form, Input, Select, Button, Checkbox, notification } from "antd";
-import { Link } from "react-router-dom";
 import axios from "axios";
 
 const { Option } = Select;
@@ -10,25 +9,48 @@ const FormComponent = ({ title, buttonText }) => {
 
   const onFinish = async (values) => {
     try {
-      const data = { ...values, access_key: "0c511151-8204-4f6f-8485-932700f9e589" };
+      // Prepare data for TeleCRM
+      const data = {
+        name: values.name,
+        company: values.company || "",
+        email: values.email,
+        phone: values.phone,
+        services: values.services.join(", "),
+        industry: values.industry || "",
+        terms_accepted: values.terms,
+      };
 
-      const response = await axios.post("https://api.web3forms.com/submit", data, {
+      // API Configuration
+      const API_ENDPOINT =
+        "https://022os10kr2.execute-api.ap-south-1.amazonaws.com/enterprise/6794762dcb5f0836bb9c5783/autoupdatelead";
+      const API_KEY =
+        "19de2e88-b716-4458-80d6-11998bda1adb1737790262325:7703cad7-ef28-4f05-a1f4-685b5ec2218d";
+
+      // Send data to TeleCRM API
+      const response = await axios.post(API_ENDPOINT, data, {
         headers: {
           "Content-Type": "application/json",
+          Authorization: `Bearer ${API_KEY}`,
         },
       });
 
-      if (response.status === 200) {
+      // Handle Success Response
+      if (response.status === 200 || response.status === 201) {
         notification.success({
           message: "Success",
-          description: "Your form has been submitted successfully!",
+          description: "Your lead has been submitted successfully to TeleCRM!",
         });
         form.resetFields();
+      } else {
+        throw new Error("Unexpected response from the server");
       }
     } catch (error) {
+      console.error("Axios Error:", error);
       notification.error({
         message: "Error",
-        description: "There was an error submitting your form. Please try again later.",
+        description: error.response
+          ? `Error: ${error.response.status} - ${error.response.data.message || "An error occurred"}`
+          : "There was an error submitting your lead to TeleCRM. Please try again later.",
       });
     }
   };
@@ -36,7 +58,9 @@ const FormComponent = ({ title, buttonText }) => {
   return (
     <div className="p-3 border-0 rounded bg2 aos shadow-sm ">
       <h3 className="mb-3 text-center">{title}</h3>
-      <p className="text-center">Get started in just a few steps and go live within minutes.</p>
+      <p className="text-center">
+        Get started in just a few steps and go live within minutes.
+      </p>
       <Form layout="vertical" form={form} onFinish={onFinish} size="large">
         {/* Name */}
         <Form.Item
@@ -48,11 +72,7 @@ const FormComponent = ({ title, buttonText }) => {
         </Form.Item>
 
         {/* Company */}
-        <Form.Item
-          label="Company"
-          name="company"
-          rules={[]}
-        >
+        <Form.Item label="Company" name="company">
           <Input placeholder="Enter Your Company Name (Optional)" />
         </Form.Item>
 
@@ -60,7 +80,9 @@ const FormComponent = ({ title, buttonText }) => {
         <Form.Item
           label="Email"
           name="email"
-          rules={[{ required: true, type: "email", message: "Please enter a valid email" }]}
+          rules={[
+            { required: true, type: "email", message: "Please enter a valid email" },
+          ]}
         >
           <Input placeholder="Enter Your Email Address" />
         </Form.Item>
@@ -87,72 +109,26 @@ const FormComponent = ({ title, buttonText }) => {
           rules={[{ required: true, message: "Please select at least one service" }]}
         >
           <Select mode="multiple" placeholder="Select Services" allowClear>
-            <Option value="Waba Service">
-              <i className="bi bi-whatsapp me-3 text-success"></i>
-              Waba Service
-            </Option>
-            <Option value="RCS Service">
-              <i className="bi bi-envelope-paper me-3 text-warning"></i>
-              RCS Service
-            </Option>
-            <Option value="Bulk SMS Service">
-              <i className="bi bi-chat-dots me-3 text-primary"></i>
-              Bulk SMS Service
-            </Option>
-            <Option value="Voice Call Service">
-              <i className="bi bi-telephone me-3 text-danger"></i>
-              Voice Call Service
-            </Option>
-            <Option value="OTP Service">
-              <i className="bi bi-shield-lock me-3 text-secondary"></i>
-              OTP Service
-            </Option>
+            <Option value="Waba Service">Waba Service</Option>
+            <Option value="RCS Service">RCS Service</Option>
+            <Option value="Bulk SMS Service">Bulk SMS Service</Option>
+            <Option value="Voice Call Service">Voice Call Service</Option>
+            <Option value="OTP Service">OTP Service</Option>
           </Select>
         </Form.Item>
 
         {/* Industry */}
-        <Form.Item
-          label="Industry"
-          name="industry"
-          rules={[]}
-        >
+        <Form.Item label="Industry" name="industry">
           <Select placeholder="Select Industry (Optional)" allowClear>
-            <Option value="Real Estate">
-              <i className="bi bi-house me-3 text-primary"></i>
-              Real Estate
-            </Option>
-            <Option value="Food & Beverage">
-              <i className="bi bi-cup-hot me-3 text-danger"></i>
-              Food & Beverage
-            </Option>
-            <Option value="Healthcare">
-              <i className="bi bi-heart-pulse me-3 text-success"></i>
-              Healthcare
-            </Option>
-            <Option value="Tours & Travels">
-              <i className="bi bi-geo-alt me-3 text-warning"></i>
-              Tours & Travels
-            </Option>
-            <Option value="Gaming">
-              <i className="bi bi-controller me-3 text-info"></i>
-              Gaming
-            </Option>
-            <Option value="Retail & eCommerce">
-              <i className="bi bi-bag me-3 text-dark"></i>
-              Retail & eCommerce
-            </Option>
-            <Option value="Media">
-              <i className="bi bi-camera-video me-3 text-muted"></i>
-              Media
-            </Option>
-            <Option value="Government">
-              <i className="bi bi-bank me-3 text-secondary"></i>
-              Government
-            </Option>
-            <Option value="Education">
-              <i className="bi bi-book me-3 text-primary"></i>
-              Education
-            </Option>
+            <Option value="Real Estate">Real Estate</Option>
+            <Option value="Food & Beverage">Food & Beverage</Option>
+            <Option value="Healthcare">Healthcare</Option>
+            <Option value="Tours & Travels">Tours & Travels</Option>
+            <Option value="Gaming">Gaming</Option>
+            <Option value="Retail & eCommerce">Retail & eCommerce</Option>
+            <Option value="Media">Media</Option>
+            <Option value="Government">Government</Option>
+            <Option value="Education">Education</Option>
           </Select>
         </Form.Item>
 
@@ -171,9 +147,9 @@ const FormComponent = ({ title, buttonText }) => {
         >
           <Checkbox>
             I accept the{" "}
-            <Link to="/terms" target="_blank">
+            <a href="/terms/" target="_blank">
               terms and conditions
-            </Link>{" "}
+            </a>{" "}
             and agree to receive communication about services.
           </Checkbox>
         </Form.Item>
