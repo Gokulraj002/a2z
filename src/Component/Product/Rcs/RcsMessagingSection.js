@@ -33,7 +33,7 @@ const RcsMessagingSection = () => {
            <div className="col-md-6 text-center" data-aos="fade-left">
              <img
                src={RcsImage1}
-               alt="RCS Messaging Example 1"
+               alt="RCS Messaging Example 1" width="px" height={"px"}
                className="img-fluid"
                style={{ borderRadius: "10px" }}
              />
@@ -45,7 +45,7 @@ const RcsMessagingSection = () => {
            <div className="col-md-6 text-center" data-aos="fade-right">
              <img
                src={RcsImage2}
-               alt="RCS Messaging Example 2"
+               alt="RCS Messaging Example 2" width="px" height={"px"}
                className="img-fluid"
                style={{ borderRadius: "10px" }}
              />

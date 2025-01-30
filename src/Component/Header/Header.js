@@ -65,7 +65,7 @@ const Header = () => {
         <nav className={navClass} style={{ zIndex: 1000 }}>
           <div className="container w-100">
             <Link className="navbar-brand" to="/">
-              <img src={logo} alt="Logo" style={{ height: "60px" }} />
+            <img src={logo} alt="logo" width="px" height={"60px"} />
             </Link>
             <button
               className="navbar-toggler"
@@ -89,7 +89,7 @@ const Header = () => {
                 to="/"
                 
                 >
-                  <img src={logo} alt="Logo" style={{ height: "60px" }} />
+                  <img src={logo} alt="logo" width="px" height={"60px"} />
                 </Link>
                 <button
                   type="button"

@@ -74,7 +74,7 @@ const Services = () => {
           <div className="col-md-6" data-aos="zoom-in-right">
             <img
               src={Bulksms}
-              alt="Bulk SMS Services"
+              alt="Bulk SMS Services" width="px" height={"px"}
               className="img-fluid"
               style={{
                 borderRadius: "10px",
@@ -106,10 +106,9 @@ const Services = () => {
                 >
                   <img
                     src={service.icon}
-                    alt={service.title}
+                    alt={service.title} width="24px" height={"24px"}
                     style={{
-                      width: "24px",
-                      height: "24px",
+                     
                       marginRight: "10px",
                     }}
                   />

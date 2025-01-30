@@ -11,10 +11,12 @@ import blog10 from"./Images/WhatsApp Business API Integration_ Essential Tools a
 import blog11 from"./Images/Why WhatsApp Business API is Revolutionizing  E-commerce in India.jpg";
 import blog12 from"./Images/WhatsApp Business API Use Cases Transforming Healthcare in India.jpg";
 import blog13 from"./Images/jan1.jpg";  
-import blog14 from"./Images/jan2.png";
+import blog14 from"./Images/jan2.jpg";
 import blog15 from"./Images/jan3.jpg";
 import blog16 from"./Images/jan4.jpg";
-
+import blog17 from"./Images/jan5.jpg";
+import blog18 from"./Images/jan6.jpg";
+import blog20 from"./Images/jan8.jpg";
 
 const BlogImages = {
   1: blog1,
@@ -33,6 +35,9 @@ const BlogImages = {
   15: blog14,
   16: blog15,
   17: blog16,
+  18: blog17,
+  19: blog18,
+  21: blog20,
   
   
 };

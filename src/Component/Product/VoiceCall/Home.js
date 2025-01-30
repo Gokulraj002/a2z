@@ -41,7 +41,7 @@ const Home = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={voiceCallImage}
-              alt="Voice Call Solutions"
+              alt="Voice Call Solutions" width="px" height={"px"}
               className="img-fluid rounded"
             />
           </div>

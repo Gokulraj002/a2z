@@ -54,11 +54,10 @@ const Home = () => {
                   
                   >
                     <img
-                      src={feature.image}
+                      src={feature.image} 
                       alt={feature.title}
+                      width="60px" height={"60px"}
                       style={{
-                        width: "60px",
-                        height: "60px",
                         marginBottom: "15px",
                       }}
                     />

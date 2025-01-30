@@ -56,7 +56,7 @@ const Dec15 = () => {
       <p className='para-color'>Effective communication with customers is the key to accomplishing every business objective in the current dispensation. Businesses now have a unique chance to reach out to their users where they feel most comfortable, given that thousands of people use WhatsApp from time to time. The WhatsApp Business API is revolutionary; it allows businesses to simplify contact with consumers, provide quick help, and minimize the number of routine communication actions. </p>
       <p className='para-color'>Think about being able to answer customers’ questions, send notifications about the orders, or process support requests all thanks to automatization and in bulk. This blog expounds on the WhatsApp Business API and its effectiveness in the automation of customer communication and time saving, as well as meeting the customer’s needs. </p> 
       <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog3} alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"}  src={blog3} alt="Descriptive alt text" />
       </div>
             <div className="para-color" data-aos="fade-left">
             <h2 className="fw-bold mt-5">
@@ -99,7 +99,7 @@ const Dec15 = () => {
                  <h3 className="fw-bold">Integration with Other Software: </h3>
                  <p>For enhanced customer care services, enhance the capabilities of the API by linking it to other CRMs such as Salesforce or Zoho in order to tailor future engagements to customers based on their past interactions. </p>
                  <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog3_1} alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"}  src={blog3_1} alt="Descriptive alt text" />
       </div>
 
             </div>
@@ -147,7 +147,7 @@ const Dec15 = () => {
               </li>
                 </ul>
                 <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog3_2} alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"}  src={blog3_2} alt="Descriptive alt text" />
       </div>
                 <h3 className="fw-bold">Best Practices on The WhatsApp Business API  </h3>
                 <p>Value Above All: Make sure that all automated messages contain informative or helpful content.Engage People’s Help When Necessary: A sophisticated issue should enable the customer to speak to a live agent. Be Mindful: Adhere to WhatsApp guidelines to eliminate the risk of your business profile being banned.</p>

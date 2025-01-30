@@ -65,7 +65,7 @@ const Dec20 = () => {
             to engage and convert leads into loyal customers.
           </p>
           <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog8_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog8_2} alt="Descriptive alt text" />
       </div>
           
           <div data-aos="fade-left">
@@ -149,7 +149,7 @@ const Dec20 = () => {
               insights.
             </p>
             <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog8} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog8} alt="Descriptive alt text" />
       </div>
           </div>
 
@@ -236,7 +236,7 @@ const Dec20 = () => {
               sales.
             </p>
             <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog8_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog8_1} alt="Descriptive alt text" />
       </div>
           </div>
           <div data-aos="float-left">

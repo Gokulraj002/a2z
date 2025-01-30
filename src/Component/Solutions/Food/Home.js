@@ -48,7 +48,7 @@ const Home = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={foodImage}
-              alt="Food & Beverage Messaging Services"
+              alt="Food & Beverage Messaging Services" width="px" height={"px"}
               className="img-fluid rounded "
             />
           </div>

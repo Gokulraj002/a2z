@@ -72,7 +72,7 @@ const Achievements = () => {
                 <img
                   src={achievement.icon}
                   alt={achievement.label}
-                  style={{ width: "50px", height: "50px" }}
+                  width="50px" height={"50px"}
                   className="me-3"
                 />
                 {/* Text */}

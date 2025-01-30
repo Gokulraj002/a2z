@@ -64,7 +64,7 @@ const BulkSmsHome = () => {
             <div className="col-md-6 text-center aos" data-aos="fade-left">
               <img
                 src={transactionalImage}
-                alt="Transactional SMS Services"
+                alt="Transactional SMS Services" width="px" height={"px"}
                 className="img-fluid rounded"
               />
             </div>
@@ -86,15 +86,15 @@ const BulkSmsHome = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={promotionalImage}
-              alt="Promotional SMS Services"
+              alt="Promotional SMS Services" width="px" height={"px"}
               className="img-fluid rounded"
             />
           </div>
           {/* {right Content} */}
           <div className="col-md-6 para-color" data-aos="fade-right">
-            <h1 className="fw-bold mb-4">
+            <h2 className="fw-bold mb-4">
               Boost Your Sales with <span className="text-primary">Promotional SMS</span> Campaigns!
-            </h1>
+            </h2>
             <p>
               Drive customer engagement, increase brand visibility, and maximize 
               conversions with our effective promotional SMS solutions. Deliver 
@@ -146,9 +146,9 @@ const BulkSmsHome = () => {
         <div className="row align-items-center aos">
           {/* Left Content */}
           <div className="col-md-6 para-color" data-aos="fade-right">
-            <h1 className="fw-bold mb-4">
+            <h2 className="fw-bold mb-4">
               Secure Your Business with <span className="text-primary">OTP SMS</span> Solutions!
-            </h1>
+            </h2>
             <p>
               Provide secure, real-time authentication and enhance user trust with 
               our reliable OTP SMS services. Simplify verification and ensure 
@@ -186,7 +186,7 @@ const BulkSmsHome = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={otpImage}
-              alt="OTP SMS Services"
+              alt="OTP SMS Services" width="px" height={"px"}
               className="img-fluid rounded"
             />
           </div>

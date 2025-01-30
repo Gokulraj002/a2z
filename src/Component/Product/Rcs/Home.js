@@ -52,7 +52,7 @@ const Home = () => {
           <div className="col-md-6 text-center" data-aos="fade-left">
             <img
               src={rcsImage}
-              alt="RCS Messaging Services"
+              alt="RCS Messaging Services" width="px" height={"px"}
               className="w-100"
             />
           </div>

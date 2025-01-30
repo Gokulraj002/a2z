@@ -1,6 +1,7 @@
 
 
 export const Whatsapp = {
+  
     title: "Whatsapp - Frequently Asked Questions",
       faqs: [
         {

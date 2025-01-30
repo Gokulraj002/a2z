@@ -39,6 +39,7 @@ const BlogList = () => {
   return (
     <div className="bg-light">
       <div className="container p-4">
+        {/* <h1>Enhancing Business Communication</h1> */}
         {/* Category buttons at the top */}
         <div className="mb-4 text-center">
           {categories.map((category) => (
@@ -68,7 +69,7 @@ const BlogList = () => {
               <div className="card mb-4 shadow-sm border-0">
                 <img
                   src={images[blog.id]}
-                  alt={blog.title}
+                  alt={blog.title} width="px" height={"230px"}
                   className="card-img-top"
                  
                 />

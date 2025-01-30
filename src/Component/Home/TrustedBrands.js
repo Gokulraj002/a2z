@@ -18,34 +18,34 @@ const TrustedBrands = () => {
 
         <div className="row row-cols-4 row-cols-md-4 row-cols-lg-5 g-4 text-center"  data-aos='zoom-in'>
           <div className="col" >
-            <img src={Image1} alt="Brand 1" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image1} alt="Brand 1" width="px" height={"px"} className="w-100   logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image2} alt="Brand 2" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image2} alt="Brand 2" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image3} alt="Brand 3" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image3} alt="Brand 3" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image4} alt="Brand 4" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image4} alt="Brand 4" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image5} alt="Brand 5" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image5} alt="Brand 5" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image6} alt="Brand 6" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image6} alt="Brand 6" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image7} alt="Brand 7" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image7} alt="Brand 7" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image8} alt="Brand 8" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image8} alt="Brand 8" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col" >
-            <img src={Image9} alt="Brand 9" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image9} alt="Brand 9" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
           <div className="col">
-            <img src={Image10} alt="Brand 9" className="w-100 logo-img mx-auto mb-4" />
+            <img src={Image10} alt="Brand 9" width="px" height={"px"} className="w-100 logo-img mx-auto mb-4" />
           </div>
         </div>
       </div>

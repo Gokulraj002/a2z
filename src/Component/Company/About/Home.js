@@ -10,7 +10,7 @@ const Home = () => {
       {/* Left Content */}
       <div className="col-md-6 para-color" data-aos="fade-right">
         <h1 className="fw-bold mb-4">
-          Welcome to <span className="text-primary">A2ZSMS</span>
+        Welcome to A2ZSMS   <span className="text-primary">Your Messaging Partner</span>
         </h1>
         <p>
           At A2ZSMS, we specialize in providing innovative communication solutions that empower businesses to connect with their customers seamlessly. Our focus is on delivering reliability, speed, and scalability, making us a trusted partner for businesses across industries.
@@ -40,7 +40,7 @@ const Home = () => {
       <div className="col-md-6 text-center aos" data-aos="fade-left">
         <img
           src={About} // Replace with an About Us related image
-          alt="About A2ZSMS"
+          alt="About A2ZSMS" width="px" height={"px"}
           className="img-fluid rounded"
         />
       </div>

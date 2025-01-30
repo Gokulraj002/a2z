@@ -44,7 +44,7 @@ const AboutHome = () => {
           <div className="col-md-6" data-aos='zoom-in-left'>
             <img
               src={WhyChoose}
-              alt="Who We Are"
+              alt="Who We Are" width="px" height={"px"}
               className="img-fluid rounded shadow"
             />
           </div>
@@ -88,7 +88,7 @@ const AboutHome = () => {
              <div className="col-md-6" data-aos='fade-left'>
                <img
                  src={Mission}
-                 alt="Our Mission"
+                 alt="Our Mission" width="px" height={"px"}
                  className="img-fluid rounded shadow"
                />
              </div>
@@ -134,7 +134,7 @@ const AboutHome = () => {
              <div className="col-md-6 order-md-1" data-aos='fade-right'>
                <img
                  src={Vision}
-                 alt="Our Vision"
+                 alt="Our Vision" width="px" height={"px"}
                  className="img-fluid rounded shadow"
                />
              </div>

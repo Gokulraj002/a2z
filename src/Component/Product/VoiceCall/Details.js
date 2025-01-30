@@ -9,9 +9,9 @@ const Details = () => {
        <div className="row para-color1 aos">
          {/* Content Section */}
          <div className="col-md-12" data-aos='zoom-in'>
-           <h1 className="fw-bold mb-4 text-center">
+           <h2 className="fw-bold mb-4 text-center">
              Bulk Voice Call
-           </h1>
+           </h2>
            <p className="text-muted ">
              India Bulk SMS offers a highly intuitive interface for sending mass
              voice calls at sensible rates. Bulk voice calls provide businesses

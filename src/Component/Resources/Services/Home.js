@@ -10,7 +10,7 @@ const Home = () => {
           <div className="col-md-6 text-center" data-aos='fade-right'>
             <img
               src={manWithLaptop}
-              alt="Man with laptop"
+              alt="Man with laptop" width="px" height={"px"}
               className="img-fluid"
               style={{ maxWidth: "80%" }}
             />

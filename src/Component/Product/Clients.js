@@ -77,7 +77,7 @@ const Client = () => {
               <img
                 src={image}
                 alt={`Client ${index + 1}`}
-                className="img-fluid"
+                className="img-fluid" width="px" height={"px"}
                 style={{ maxHeight: "100px", objectFit: "contain" }}
               />
             </div>

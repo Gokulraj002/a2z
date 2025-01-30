@@ -57,7 +57,7 @@ const Dec19 = () => {
             <p>Effective communications with customers are critical for success in today's business world, where WhatsApp-with its 2 billion active users worldwide-becomes a powerful engagement platform for businesses. WhatsApp has two business offerings-free WhatsApp Business App and WhatsApp Business API. The right application depends upon the size, needs, and goals of your business. </p>
             <p>The blog compares WhatsApp Business App and WhatsApp Business API, differentiating features and benefits between them to help you choose which option is best for your business. </p>
             <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog7_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog7_2} alt="Descriptive alt text" />
       </div>
         <div data-aos="fade-left">
         <h2 className="fw-bold mt-5">
@@ -187,7 +187,7 @@ const Dec19 = () => {
       <p><i className="bi bi-check-circle-fill text-primary me-1"></i> Customer data as messages are personalized.Satisfaction and loyalty increased from the customer.Analytics Enhanced .</p>
       <p><i className="bi bi-check-circle-fill text-primary me-1"></i> Detailed reports on message deliverability and read rates, plus details on customers' interactions, are available insights for improvement of communication strategies. .</p>
       <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog7} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog7} alt="Descriptive alt text" />
       </div>     
         </div>
         <div data-aos="fade-left">
@@ -210,7 +210,7 @@ const Dec19 = () => {
             <p><i className="bi bi-check-circle-fill text-primary me-1"></i> The features/products/integrations are not too advanced for you.  </p>
             <p><i className="bi bi-check-circle-fill text-primary me-1"></i> You just want a quick way to reach out to customers.   </p>
             <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog7_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog7_1} alt="Descriptive alt text" />
       </div>
         </div>
         <div data-aos="fade-right">

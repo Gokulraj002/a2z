@@ -39,7 +39,7 @@ const StepsSection = () => {
          <div className="col-md-6 text-center  mb-md-0" data-aos='zoom-in-right'> 
            <img
              src={exampleImage}
-             alt="How to sign up"
+             alt="How to sign up" width="100" height={"px"}
              className="img-fluid w-100"
            />
          </div>

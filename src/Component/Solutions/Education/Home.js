@@ -43,7 +43,7 @@ const Home = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={educationImage}
-              alt="Education WhatsApp Services"
+              alt="Education WhatsApp Services" width="px" height={"px"}
               className="img-fluid rounded"
             />
           </div>

@@ -87,7 +87,7 @@ const Reviews = () => {
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="img-fluid"
+                  className="img-fluid" width="px" height={"px"}
                   style={{ maxHeight: "50px", objectFit: "contain" }}
                 />
               </div>

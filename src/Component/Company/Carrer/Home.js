@@ -76,7 +76,7 @@ const Home = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={Carrer}
-              alt="Why Join Us"
+              alt="Why Join Us" width="px" height={"px"}
               className="img-fluid rounded "
             />
           </div>

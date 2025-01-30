@@ -44,7 +44,7 @@ const WhatsAppSolutions = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={whatsappImage}
-              alt="Cloud WhatsApp API Services"
+              alt="Cloud WhatsApp API Services" width="px" height={"px"}
               className="img-fluid rounded "
             />
           </div>

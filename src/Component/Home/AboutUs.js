@@ -84,7 +84,7 @@ const AboutUs = () => {
             <div>
               <img
                 src={office}
-                alt="Office Environment"
+                alt="Office Environment" width="px" height={"px"}
                 className="img-fluid rounded"
               />
             </div>

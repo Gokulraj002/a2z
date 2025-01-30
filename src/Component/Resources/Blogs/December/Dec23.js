@@ -73,8 +73,8 @@ const Dec23 = () => {
         </p>
         <div>
           <img
-            className="w-100 mt-3"
-            height={"auto"}
+            className=" mt-3"
+            width="100%" height={"auto"}
             src={blog11_2}
             alt="Descriptive alt text"
           />
@@ -166,8 +166,8 @@ const Dec23 = () => {
         </div>
         <div>
           <img
-            className="w-100 mt-3"
-            height={"auto"}
+            className=" mt-3"
+            width="100%" height={"auto"}
             src={blog11}
             alt="Descriptive alt text"
           />
@@ -228,8 +228,8 @@ const Dec23 = () => {
         </div>
         <div>
           <img
-            className="w-100 mt-3"
-            height={"auto"}
+            className=" mt-3"
+            width="100%" height={"auto"}
             src={blog11_1}
             alt="Descriptive alt text"
           />

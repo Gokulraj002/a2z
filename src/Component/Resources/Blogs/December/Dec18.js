@@ -56,7 +56,7 @@ const Dec18 = () => {
             <p>WhatsApp Business API is a great tool for business to optimize their customer communication, but even better is integrating the API with your existing customer relationship management (CRM) system. This integrates everything into one system, automating workflows, monitoring data, and personalizing experiences. So irrespective of the system that you currently employ-whether Salesforce, Zoho, HubSpot, or else-it can be paid timely support in managing conversations with anyone in your business. </p>
             <p>In this article, you will learn about step-by-step methods for an easy WhatsApp Business API integration with your CRM. </p>
             <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog6_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog6_2} alt="Descriptive alt text" />
       </div>
              <div className="" data-aos="fade-left">           
              <h5 className='fw-bold'>What to do: </h5>
@@ -104,7 +104,7 @@ const Dec18 = () => {
                 <p>Want to integrate WhatsApp Business API with your CRM? Start now at the best time for transforming the way you communicate with your audience!</p>
                 <p>Suitable for whom?</p>
                 <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog6_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog6_1} alt="Descriptive alt text" />
       </div>
                </div>
                <div data-aos="fade-left">
@@ -127,7 +127,7 @@ const Dec18 = () => {
             <p><i className="bi bi-check-circle-fill text-primary me-1"></i> The features/products/integrations are not too advanced for you.  </p>
             <p><i className="bi bi-check-circle-fill text-primary me-1"></i> You just want a quick way to reach out to customers.   </p>
             <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog6} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog6} alt="Descriptive alt text" />
       </div>
                </div>
                <div data-aos="fade-right">

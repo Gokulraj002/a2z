@@ -61,7 +61,7 @@ const Features = () => {
               }}
             >
               <div className="d-flex align-items-start">
-                <img src={feature.icon} alt="new" className="me-3" />
+                <img src={feature.icon} alt="new" width="px" height={"px"} className="me-3" />
                 <div>
                   <h5 className="fw-bold mb-2" style={{ color: "#203239" }}>
                     {feature.title}

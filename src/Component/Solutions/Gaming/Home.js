@@ -42,7 +42,7 @@ const Home = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={gamingImage}
-              alt="Gaming WhatsApp Services"
+              alt="Gaming WhatsApp Services" width="px" height={"px"}
               className="img-fluid rounded"
             />
           </div>

@@ -171,7 +171,7 @@ const ComparisonTable = () => {
            {/* <h2 className="head1 text-center ">Explore Our WhatsApp API Template</h2> */}
       
            <div className="col-12" data-aos="zoom-in">
-             <img src={Try} alt="WhatsApp Template" className="img-fluid " />
+             <img src={Try} alt="WhatsApp Template" width="px" height={"px"} className="img-fluid " />
            </div>
            
          </div>

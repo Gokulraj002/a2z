@@ -51,11 +51,11 @@ const Video = () => {
        <div className=" bottom-logos text-center mt-5">
         <h3 className='text-white fw-bold'>Out TrustedBrands</h3>
          <div className="dflex " style={{justifyContent:'space-around'}}>
-           <img src={Image2} alt="MotherHood" className="m-2  logo-img" />
-           <img src={Image1} alt="Isckon" className="ms-2 p-3" width={'120px'} />
+           <img src={Image2} alt="MotherHood" width="px" height={"px"} className="m-2  logo-img" />
+           <img src={Image1} alt="Isckon"  height={"px"} className="ms-2 p-3" width={'120px'} />
 
-           <img src={Image4} alt="Yamaha" className="m-2 logo-img" />
-           <img src={Image5} alt="Dunzo" className="me-2 logo-img" />
+           <img src={Image4} alt="Yamaha" width="px" height={"px"} className="m-2 logo-img" />
+           <img src={Image5} alt="Dunzo" width="px" height={"px"} className="me-2 logo-img" />
            {/* <img src={Image6} alt="Dunzo" className="m-2 logo-img" /> */}
          </div>
        </div>

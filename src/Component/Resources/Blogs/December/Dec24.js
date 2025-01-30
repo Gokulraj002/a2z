@@ -59,7 +59,7 @@ const Dec24 = () => {
           India is experiencing a digital transformation in its healthcare system, driven by increased smartphone penetration and the demand for accessible healthcare services. The WhatsApp Business API is emerging as a key tool in bridging the gap between patients and healthcare providers.
         </p>
         <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog12_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog12_2} alt="Descriptive alt text" />
       </div>
       </section>
 
@@ -115,7 +115,7 @@ const Dec24 = () => {
             <li>Direct links to reorder medications from partnered pharmacies.</li>
           </ul>
           <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog12} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog12} alt="Descriptive alt text" />
       </div>
         </div>
 
@@ -164,7 +164,7 @@ const Dec24 = () => {
           </ul>
         </div>
         <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog12_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog12_1} alt="Descriptive alt text" />
       </div>
       </section>
 

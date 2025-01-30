@@ -55,7 +55,7 @@ const TryForFree = () => {
          {/* Left Section */}
          <div className="col-md-6 d-grid" data-aos="fade-right">
            <div className="place-center">
-             <h2 className="mb-4">Why Choose Us?</h2>
+             <h1 className="mb-4">Your Trusted Partner in Success</h1>
              <p>
                Transform your business communication with innovative solutions
                designed to engage your audience and drive results. Here's why we're trusted:

@@ -53,7 +53,7 @@ const Dec13 = () => {
 
     <div className="container para-color py-5">
       <h1 class="text-primary fw-bold">
-        Revolutionizing Customer Support for Indian SMEs with WhatsApp Chatbots
+         Customer Support for Indian SMEs with WhatsApp Chatbots
       </h1>
 
       <section>
@@ -74,7 +74,7 @@ const Dec13 = () => {
           market.
         </p>
         <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog1_2} alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"} src={blog1_2} alt="Descriptive alt text" />
       </div>
       </section>
 
@@ -187,7 +187,7 @@ const Dec13 = () => {
             </li>
           </ul>
           <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog1} alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"}  src={blog1} alt="Descriptive alt text" />
       </div>
         </div>
         <p className="para-color"></p>
@@ -240,7 +240,7 @@ const Dec13 = () => {
           </li>
         </ul>
         <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog1_1} alt="Descriptive alt text" />
+        <img className='w-100 mt-3' width="px" height={"auto"}  src={blog1_1} alt="Descriptive alt text" />
       </div>
       </section>
 

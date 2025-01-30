@@ -4,6 +4,7 @@ import { HelmetProvider } from "react-helmet-async";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS CSS file
 import './Component/Solutions/solution.css'
+// Import your components
 import Layout from "./Component/Header/Layout";
 import Home from "./Component/Home/Home";
 import TryForFree from "./Component/Forms/TryForFree";
@@ -49,9 +50,11 @@ import Blog3 from "./Component/Resources/Blogs/January/Blog3";
 import Blog4 from "./Component/Resources/Blogs/January/Blog4";
 import Blog5 from "./Component/Resources/Blogs/January/Blog5";
 import Blog6 from "./Component/Resources/Blogs/January/Blog6";
+import Blog8 from "./Component/Resources/Blogs/January/Blog8";
 
 function App() {
   useEffect(() => {
+    // Initialize AOS with specific settings
     AOS.init({
       duration: 1500,  // Animation duration in milliseconds
       once: true,      // Allow animations to happen only once
@@ -107,6 +110,7 @@ function App() {
           <Route path="/blogs/why-travel-businesses-in-2024-need-whatsApp-aPI-for-growth/" element={<Blog4/>} />
           <Route path="/blogs/secure-your-business-with-a2z-sms-otp-services/" element={<Blog5/>}/>
           <Route path="/blogs/boost-business-reach-with-reliable-bulk-sMS-services/" element={<Blog6/>} />
+          <Route path="/blogs/reliable-voice-call-solutions-for-seamless-communication/" element={<Blog8/>} />
           <Route path='*' element={<NoPage/>} /> 
          </Route>
       </Routes>

@@ -68,7 +68,7 @@ const Content = () => {
           <div className="col-md-4 text-center px-md-3" data-aos="fade-in">
             <img
               src={content}
-              alt="Service Overview"
+              alt="Service Overview" width="px" height={"px"}
               className="w-75 rounded"
             />
           </div>

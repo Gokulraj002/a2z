@@ -49,7 +49,7 @@ const Home = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={healthcareImage}
-              alt="Healthcare Services"
+              alt="Healthcare Services" width="px" height={"px"} 
               className="img-fluid rounded "
             />
           </div>

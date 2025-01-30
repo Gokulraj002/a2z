@@ -81,7 +81,8 @@ const OurService = () => {
                       src={service.icon}
                       alt={service.title}
                       className="me-3"
-                      style={{ width: "50px", height: "50px" }}
+                      width="50px" height={"50px"}
+                      
                     />
                     <div>
                       <h5 className="fw-bold mb-2">{service.title}</h5>

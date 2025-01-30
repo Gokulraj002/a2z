@@ -113,7 +113,7 @@ const Industries = () => {
             >
               <Link to={industry.path} className="text-decoration-none">
                 <div
-                  className="text-center shadow-sm p-4 industry-card d-flex"
+                  className="text-center shadow-sm p-4 industry-card d-flex" 
                   style={{
                     borderRadius: "10px",
                     backgroundColor: "#ffffff",
@@ -125,7 +125,7 @@ const Industries = () => {
                     src={industry.icon}
                     alt={industry.alt}
                     className=""
-                    style={{ width: "50px", height: "50px" }}
+                    width="50px" height={"50px"}
                   />
                   <h6
                     className="mb-0 place-center ms-3 text-dark"

@@ -70,7 +70,7 @@ const Timeline = () => {
   return (
     <div className="bg-light">
       <div className="container py-5 aos">
-        <h2 className="text-center mb-4">Request Demo</h2>
+        <h1 className="text-center mb-4">Request a Free Demo Today!</h1>
         <div className="position-relative d-flex justify-content-between align-items-center">
           {/* Timeline Line */}
           {steps.map((step) => (

@@ -61,7 +61,7 @@ const Dec22 = () => {
        WhatsApp has become one of the most dynamic and practical platforms for business communication, with over 2 billion active users. Beyond basic messaging, the WhatsApp Business API introduces automation, integration, and scalability features that revolutionize customer engagement.
      </p>
      <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog10_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog10_2} alt="Descriptive alt text" />
       </div>
    </section>
 
@@ -142,7 +142,7 @@ const Dec22 = () => {
        </ul>
     
        <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog10} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog10} alt="Descriptive alt text" />
       </div>
      </div>
 
@@ -194,7 +194,7 @@ const Dec22 = () => {
        </ul>
      </div>
      <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog10_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog10_1} alt="Descriptive alt text" />
       </div>
    </section>
 

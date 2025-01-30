@@ -57,7 +57,7 @@ const Dec17 = () => {
         <p className='para-color'> Bangalore, dubbed India's Silicon Valley, has innumerable micro-enterprises that survive on competitive bases. For these micro businesses to continue thriving, they need to look for innovative tools to increase customer engagement and simplify processes. One such tool is the WhatsApp chatbot, which would open a new chapter in how companies communicate with their customers. </p>
 <p className='para-color'>WhatsApp chatbots help small businesses to answer queries instantly, automate routines and deliver personalized service. This blog is on the top 10 features of WhatsApp chatbots for small businesses in Bangalore. </p>
 <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog5_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog5_2} alt="Descriptive alt text" />
       </div>
 <div className="para-color" data-aos="fade-left">
       <h5 className='fw-bold'>1. The Business Never Sleeps </h5>
@@ -71,7 +71,7 @@ const Dec17 = () => {
        <h5 className='fw-bold'>5. Multilingual Support</h5>
        <p className='para-color'>Indeed, in a permutation-ridden, multi-lingual cosmopolitan city like Bangalore, the most singular feeling is to have a consumer in the their preferred tongues. WhatsApp chatbot would make it possible to converse in many languages instead of a particular language in such a way that language inequalities are obliterated; consumers feel much happier. </p>
        <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog5_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog5_1} alt="Descriptive alt text" />
       </div>
        <h5 className='fw-bold'>6. Improved Lead Generation </h5>
        <p className='para-color'>The WhatsApp conversation bot would be able to collect names, emails, and, most crucially, preferences as it converses with users. Later these will be leveraged into leads for the petty business which are finally converted to loyal customers. </p>
@@ -84,7 +84,7 @@ const Dec17 = () => {
        <h5 className='fw-bold'>10. Better Customer Retention  </h5>
        <p className='para-color'>A happy customer tends to return more as compared to a dissatisfied customer. WhatsApp chatbots help a business in retaining its customers and developing a long-standing relationship through quick, accurate, and consistent support. </p>
        <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog5} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog5} alt="Descriptive alt text" />
       </div>
       </div>
       <div  className="para-color" data-aos="fade-right">

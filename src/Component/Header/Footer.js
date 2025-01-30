@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="col-md-4 mb-4">
             <img
               src={logo} // Replace with your logo
-              alt="A2Z SMS Logo"
+              alt="A2Z SMS Logo" width="px" height={"px"}
               className="w-25 mb-2"
             />
             <p className="pt-1">
@@ -33,24 +33,22 @@ const Footer = () => {
             </p>
             <h5 className="fw-bold mt-4">Payment Method</h5>
             <div>
-              <img
-                src={visa} // Replace with Visa icon
-                alt="Visa"
-                className="me-4"
-              />
+              <img src={visa}
+                alt="Visa" width="px" height={"px"} 
+                className="me-4" />
               <img
                 src={payoneer} // Replace with Mastercard icon
-                alt="Mastercard"
+                alt="Mastercard" width="px" height={"px"}
                 className="me-4"
               />
               <img
                 src={master} // Replace with Payoneer icon
-                alt="Payoneer"
+                alt="Payoneer" width="px" height={"px"}
                 className="me-4 "
               />
               <img
                 src={affirm} // Replace with Affirm icon
-                alt="Affirm"
+                alt="Affirm" width="px" height={"px"}
               />
             </div>
           </div>

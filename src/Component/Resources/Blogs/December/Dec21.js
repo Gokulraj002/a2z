@@ -51,7 +51,7 @@ const Dec21 = () => {
 </Helmet>
 
     <div className='container para-color'>
-        <h1 class="text-primary fw-bold"><b>How Bangalore's Small Businesses are Unlocking Growth with WhatsApp Business API</b></h1>
+        <h1 class="text-primary fw-bold"><b>Bangalore's Small Businesses Thrive with WhatsApp Business API</b></h1>
 
 
       <section>
@@ -63,7 +63,7 @@ const Dec21 = () => {
           As the most widely used messaging platform in India, WhatsApp makes communication seamless for businesses. With the WhatsApp Business API, businesses in Bangalore are able to engage in more personalized and scalable interactions with potential and existing customers. This article delves into how small businesses across various sectors in Bangalore are leveraging this technology to fuel growth and enhance customer engagement.
         </p>
         <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog9_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog9_2} alt="Descriptive alt text" />
       </div>
       </section>
 
@@ -157,7 +157,7 @@ const Dec21 = () => {
           By addressing customer concerns promptly and effectively, businesses can enhance the overall user experience and build stronger customer loyalty.
         </p>
         <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog9_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog9_1} alt="Descriptive alt text" />
       </div>
       </section>
 
@@ -203,7 +203,7 @@ const Dec21 = () => {
           By combining cutting-edge technology with a personalized touch, small businesses can compete with larger corporations and create unique customer experiences. As more businesses embrace this powerful tool, we can expect to see even more innovative ideas and success stories emerging from Bangalore’s entrepreneurial ecosystem.
         </p>
         <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog9} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog9} alt="Descriptive alt text" />
       </div>
       </section>
 

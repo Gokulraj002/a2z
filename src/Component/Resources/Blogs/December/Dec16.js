@@ -57,7 +57,7 @@ const Dec16 = () => {
              <p className='para-color'>The WhatsApp Business API is a big boost to businesses that want to connect the dots with their customers. But among the frequently asked questions by Indian businesses is "What would be the charges of availing WhatsApp Business API?" Designed to be flexible, scalable, and value-driven, the pricing model of the API caters to businesses irrespective of size. </p>
              <p className='para-color'>This blog will discuss the comprehensive WhatsApp Business API pricing in India, covering major aspects such as session messaging, template messaging, and other factors that affect the overall pricing. </p>
              <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog4_3} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog4_3} alt="Descriptive alt text" />
       </div>
            <div className="para-color" data-aos="fade-left">
            <h2 className="fw-bold mt-5">
@@ -87,7 +87,7 @@ const Dec16 = () => {
               </li>
                 </ul>
                 <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog4} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog4} alt="Descriptive alt text" />
       </div>
            </div>
            <div className="para-color" data-aos="fade-right">
@@ -114,7 +114,7 @@ const Dec16 = () => {
               </li>
                 </ul>
                 <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog4_1} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog4_1} alt="Descriptive alt text" />
       </div>
            </div>
            <div className="para-color" data-aos="fade-left">
@@ -181,7 +181,7 @@ const Dec16 = () => {
               </li>
                 </ul>
                 <div>
-        <img className='w-100 mt-3' height={'auto'}  src={blog4_2} alt="Descriptive alt text" />
+        <img className=' mt-3' width="100%" height={"auto"}  src={blog4_2} alt="Descriptive alt text" />
       </div>
            </div>
            <div className="para-color" data-aos="fade-left">
