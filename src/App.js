@@ -51,6 +51,7 @@ import Blog4 from "./Component/Resources/Blogs/January/Blog4";
 import Blog5 from "./Component/Resources/Blogs/January/Blog5";
 import Blog6 from "./Component/Resources/Blogs/January/Blog6";
 import Blog8 from "./Component/Resources/Blogs/January/Blog8";
+import GoogleTracking from "./GoogleTracking";
 
 function App() {
   useEffect(() => {
@@ -64,7 +65,9 @@ function App() {
 
   return (
     <HelmetProvider>
+
     <BrowserRouter>
+    <GoogleTracking/>
     <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Layout />}>
